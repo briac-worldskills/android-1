@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.thebeezgroup.autopint"},{"l":"com.thebeezgroup.autopint.controller"},{"l":"com.thebeezgroup.autopint.model"},{"l":"com.thebeezgroup.autopint.repository"},{"l":"com.thebeezgroup.autopint.service"}];updateSearchResults();

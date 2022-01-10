@@ -1,0 +1,5 @@
+com.thebeezgroup.autopint
+com.thebeezgroup.autopint.controller
+com.thebeezgroup.autopint.model
+com.thebeezgroup.autopint.repository
+com.thebeezgroup.autopint.service
