@@ -18,11 +18,12 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
-import org.eclipse.jface.text.AbstractLineTracker.Request;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.general.DefaultPieDataset;
+import java.awt.Panel;
+import javax.swing.SwingConstants;
 
 
 public class Page extends JFrame {
@@ -115,8 +116,12 @@ public class Page extends JFrame {
 
 		ImageIcon image = new ImageIcon("123.jpg");
 		JLabel lblNewLabel = new JLabel("New label");
+		
+		//Redimmensionner l'image
+		//Image newImage = yourImage.getScaledInstance(newWidth, newHeight, Image.SCALE_DEFAULT);
+
 		lblNewLabel.setIcon(new ImageIcon(this.getClass().getResource("/123.jpg")));
-		lblNewLabel.setBounds(10, 189, 112, 50);
+		lblNewLabel.setBounds(10, 189, 201, 175);
 		contentPane.add(lblNewLabel);
 		
 		DefaultPieDataset dataset = new DefaultPieDataset();
@@ -144,7 +149,7 @@ public class Page extends JFrame {
 		    btnNewButton.addActionListener(new ActionListener() {
 		    	public void actionPerformed(ActionEvent e) {
 		 		   System.out.println(textField.getText());
-
+		 		   cp.setVisible(false);
 		    	}
 		    });
 		    
